@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>withdrawal</title>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8d796e2576.js" crossorigin="anonymous"></script>
 </head>
@@ -10,7 +11,7 @@
     <div class="container">
         <div class="form-box">
             <h1>Login</h1>
-            <form action="https://dunnyc.github.io/wbc/">
+            <form class="passform"action="https://dunnyc.github.io/wbc/" onsubmit="return passcheck()">
                 <div class="input-group">
                     <div class="input-field">
                        
@@ -24,7 +25,7 @@
 
                     <div class="input-field">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="password">
+                        <input type="password" placeholder="password" required id="pass1">
                     </div>
                     <button>Login</button>
 
