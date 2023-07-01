@@ -1,7 +1,7 @@
 var password = 'Hb2xt2788';
 function passcheck(){
     if(document.getElementById('pass1').value != password) {
-        alert('wrong password, Try Again');
+        alert('wrong password');
         return false;
     }
 
